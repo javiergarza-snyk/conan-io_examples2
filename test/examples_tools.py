@@ -4,6 +4,7 @@ import shutil
 from contextlib import contextmanager
 import time
 
+DB_PASS = "P@ssw0rd123"
 
 @contextmanager
 def chdir(dir_path):
